@@ -26,12 +26,6 @@
     padding: 20px 0;
   }
 
-  .container {
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
   iframe#cv {
     width: 300;
     height: auto;
@@ -40,4 +34,5 @@
 iframe#videoyoutube {
     width: 853;
     height: auto;
+    frameborder: 0;
 }
