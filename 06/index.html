@@ -23,7 +23,7 @@
         <label for="my_repass">Підтвердження пароля</label>
         <input type="password" name="repass" id="my_repass">
         <br><br>
-        <label for="gender">Стать</label>
+        <p>Стать</p> <!--Я так зрозумів тут лейбл не потрібен?-->
         <ul>
             <li>
                 <input type="radio" name="gender" value="man" id="gender_man" checked><label for="gender_man">Чоловік</label>
@@ -36,8 +36,8 @@
         <label for="vik">Вік</label>
         <input type="number" name="vik" id="vik">
         <br><br>
-        <label for="kurs">Курс</label>
-        <select name="kurs" id="sel_kurs">
+        <p>Курс</p>  <!--Я так зрозумів тут лейбл не потрібен?-->
+            <select name="kurs" id="sel_kurs">
             <option>-=Виберіть курс=-</option>
             <option value="front_end">Front-End</option>
             <option value="back_end">Back-End</option>
@@ -45,8 +45,8 @@
             <option value="qa_manual">QA Manual</option>
         </select>
         <br><br>
-        <label for="adr">Повна адресса</label>
-        <textarea name="my_adr">Країна,регіон, місто/ селище ,вулиця</textarea>
+        <label for="adr">Повна адресса</label> <!--W3C лається на for-->
+        <textarea name="my_adr" placeholder="Країна,регіон, місто/ селище ,вулиця"></textarea>
         <br><br>
 
         <button type="reset">Очистити форму</button>
